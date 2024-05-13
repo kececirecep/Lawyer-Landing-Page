@@ -18,7 +18,8 @@ module.exports = {
         'lightBlue': '#E7F6FF',
         'titleColor': '#2D2F30',
         'descColor': '#4F4F4F',
-        'sectionLightBlue': '#F2F7FF'
+        'sectionLightBlue': '#F2F7FF',
+        'footer-bottom': '#004D7B'
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],

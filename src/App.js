@@ -1,5 +1,6 @@
 
 import './App.css';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import About from './Section/About/About';
 import Contact from './Section/Contact/Contact';
@@ -14,6 +15,7 @@ function App() {
       <About />
       <CounterSec />
       <Contact />
+      <Footer/>
     </div>
   );
 }
