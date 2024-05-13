@@ -1,13 +1,19 @@
 
 import './App.css';
 import Header from './components/Header/Header';
+import About from './Section/About/About';
+import Contact from './Section/Contact/Contact';
+import CounterSec from './Section/CounterSec/CounterSec';
 import Hero from './Section/Hero/Hero';
 
 function App() {
   return (
-    <div className="container">
+    <div className="">
       <Header />
-      <Hero/>
+      <Hero />
+      <About />
+      <CounterSec />
+      <Contact />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import Button from '../../components/Button'
 
 const Hero = () => {
     return (
-        <div className='flex items-center justify-between py-12'>
+        <div className='container flex items-center justify-between py-12'>
             <div className=''>
                 <div className='bg-lightBlue flex items-center gap-4 font-jakarta p-2 rounded-full max-w-max'>
                     <span className='bg-themeBlue text-white text-16 rounded-full px-5 py-1'>New</span>
@@ -11,7 +11,7 @@ const Hero = () => {
                 </div>
                 <h2 className='text-90 font-play text-themeBlue font-bold pb-8'>Your Solution <br />Legal Consultacy</h2>
                 <p className='font-jakarta text-descColor text-24 pb-12'>We are here to help you take care of your legality with the best service especially for you.</p>
-                <Button />
+                <Button title="GET STARTED" />
                 <p className='pt-16 pb-6 text-descColor font-jakarta text-22'>Trusted by 10+ companies in indonesia</p>
                 <img src="/images/hero-brands.png" className='w-[238px] object-contain' alt="" />
             </div>
