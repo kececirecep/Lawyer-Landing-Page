@@ -6,6 +6,7 @@ import About from './Section/About/About';
 import Contact from './Section/Contact/Contact';
 import CounterSec from './Section/CounterSec/CounterSec';
 import Hero from './Section/Hero/Hero';
+import Testimonial from './Section/Testimonial/Testimonial';
 
 function App() {
   return (
@@ -14,8 +15,9 @@ function App() {
       <Hero />
       <About />
       <CounterSec />
+      <Testimonial />
       <Contact />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
