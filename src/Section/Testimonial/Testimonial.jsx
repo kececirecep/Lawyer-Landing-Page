@@ -25,9 +25,9 @@ const Testimonial = () => {
     ]
     return (
         <div className='bg-sectionLightBlue py-36'>
-            <div className='container'>
+            <div className='container p-4'>
                 <h2 className='font-play text-48 font-bold text-titleColor text-center pb-12'>Clients Testimonial</h2>
-                <div className='grid grid-cols-3 gap-12'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12'>
                     {
                         testimonialInfo.map((item, index) => {
                             return (
