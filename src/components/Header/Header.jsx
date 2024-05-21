@@ -5,7 +5,7 @@ import Menu from './Menu'
 const Header = () => {
     return (
         <div className='shadow py-8 fixed w-full z-50 bg-white'>
-            <div className='container flex'>
+            <div className='container flex items-center'>
                 <Logo />
                 <Menu />
             </div>

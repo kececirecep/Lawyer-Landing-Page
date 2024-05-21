@@ -11,13 +11,13 @@ import Testimonial from './Section/Testimonial/Testimonial';
 function App() {
   return (
     <div className="">
-       <Header />   
+      <Header />
       <Hero />
       <About />
-       <CounterSec />
+      <CounterSec />
       <Testimonial />
       <Contact />
-       <Footer />  
+      <Footer />
     </div>
   );
 }
